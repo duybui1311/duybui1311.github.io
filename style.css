@@ -228,3 +228,26 @@ footer {
     font-family: monospace;
     font-size: 20px;
 }
+
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #0D1282;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#backToTopBtn:hover {
+  background-color: #D71313;
+}
+
+
+#backToTopBtn.show {
+  display: block;
+}

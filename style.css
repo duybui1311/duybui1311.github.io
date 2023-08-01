@@ -11,8 +11,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #EEEDED;
+    background-color: #b3b1b1;
     padding: 20px;
+ 
   }
   
   .logo {
@@ -181,6 +182,7 @@ table {
     text-align: center;
     font-size: 40px;
     font-family: monospace;
+    margin-top: 60px;
     
 }
 

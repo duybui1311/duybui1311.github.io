@@ -112,8 +112,8 @@ body {
     display: block;
   }
   
-
-  @media (max-width: 767px) {
+/* CSS for Small and Mobile Screens */
+@media screen and (max-width: 767px) {
     .logo img {
       width: 200px;
       height: 40px;
@@ -151,7 +151,8 @@ body {
   }
   
 
-  @media (min-width: 768px) and (max-width: 991px) {
+/* CSS for Medium and Tablet Screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .logo img {
       width: 220px;
       height: 45px;
@@ -159,7 +160,8 @@ body {
   }
   
 
-  @media (min-width: 992px) {
+/* CSS for Large and Desktop/Laptop Screens */
+@media screen and (min-width: 992px){
 
   }
   
@@ -304,3 +306,66 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.book_h2 { 
+  font-family: monospace;
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+.book_detail {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+
+}
+.bookpics {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.book_description {
+font-family: monospace;
+font-size: 20px;
+margin-left: 30px;
+} 
+
+
+.main_view img {
+  width: 500px;
+  height: 800px;
+  object-fit: cover;
+}
+
+.side_view {
+  display: flex inline;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.side_view img {
+  width: 120x;
+  height: 210px;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 20px; 
+}
+
+.add_button { 
+    background-color: #0D1282;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+

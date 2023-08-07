@@ -77,100 +77,7 @@ body {
   }
   
 
-  @media (max-width: 767px) {
-    .nav-links {
-      display: none;
-    }
-  
-    .nav-links.show {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
-      background-color: #EEEDED;
-    }
-  
-    .nav-links.show li {
-      margin: 15px 0;
-    }
-  
-    .hamburger {
-      display: block;
-    }
-  }
-
-
-
-
-.banner-image {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
-  }
-  
-/* CSS for Small and Mobile Screens */
-@media screen and (max-width: 767px) {
-    .logo img {
-      width: 200px;
-      height: 40px;
-    }
-  
-    .nav-links {
-      display: none;
-    }
-  
-    .nav-links.show {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
-      background-color: #EEEDED;
-    }
-  
-    .nav-links.show li {
-      margin: 15px 0;
-    }
-  
-    .hamburger {
-      display: block;
-    }
-  
-
-    .banner-image {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-    }
-  }
-  
-
-/* CSS for Medium and Tablet Screens */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .logo img {
-      width: 220px;
-      height: 45px;
-    }
-  }
-  
-
-/* CSS for Large and Desktop/Laptop Screens */
-@media screen and (min-width: 992px){
-
-  }
-  
-.banner_text { 
-    font-size: 30px;
-    font-family: monospace;
-    padding-left: 30px;
-}
-
+ 
 
 table {
     text-align: center;
@@ -213,10 +120,7 @@ table {
 }
 
 
-hr {
-    height: 50px;
-}
-
+  
 .cat_img {
     width: 300px;
     height: 500px;
@@ -369,3 +273,162 @@ margin-left: 30px;
     
 }
 
+.scifi table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.scifi td {
+  flex: 0 0 calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+.cat_item {
+  text-align: center;
+}
+
+.cat_img {
+  max-width: 100%;
+  height: auto;
+}
+
+.price_a {
+  font-size: 14px;
+}
+
+/* media querries */
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #EEEDED;
+  }
+
+  .nav-links.show li {
+    margin: 15px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .scifi td {
+    flex: 0 0 calc(50% - 10px);
+}
+
+.price_a {
+    font-size: 12px;
+}
+}
+
+
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+
+/* CSS for Small and Mobile Screens */
+@media screen and (max-width: 767px) {
+  .logo img {
+    width: 200px;
+    height: 40px;
+  }
+  .scifi td {
+    flex: 0 0 calc(33.33% - 10px);
+    margin-bottom: 30px;
+}
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #EEEDED;
+  }
+
+  .nav-links.show li {
+    margin: 15px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+
+  .banner-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .cat_item {
+    margin-bottom: 20px;
+}
+
+.price_a {
+    font-size: 12px;
+}
+}
+
+
+/* CSS for Medium and Tablet Screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .logo img {
+    width: 220px;
+    height: 45px;
+  }
+  .cat_item {
+    margin-bottom: 30px;
+}
+
+.price_a {
+    font-size: 14px;
+}
+.scifi td {
+  flex: 0 0 calc(33.33% - 10px);
+  margin-bottom: 30px;
+}
+
+
+/* CSS for Large and Desktop/Laptop Screens */
+@media screen and (min-width: 992px){
+
+}
+
+.banner_text { 
+  font-size: 30px;
+  font-family: monospace;
+  padding-left: 30px;
+}
+.cat_item {
+  margin-bottom: 40px;
+}
+
+.price_a {
+  font-size: 16px;
+}
+}
+.scifi td {
+  flex: 0 0 calc(33.33% - 10px);
+  margin-bottom: 40px;
+} 

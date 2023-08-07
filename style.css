@@ -282,7 +282,54 @@ margin-left: 30px;
     align-items: center;
 }
 
+.scifi { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.sports { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.book { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.detail_header h2 {
+  font-family: monospace;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.price { 
+  font-size: 25px;
+}
+
+.book_info  {
+  font-family: monospace;
+
+}
+
+.description_heading { 
+  font-size: 30px;
+  
+}
+
+.book_info h1 { 
+  font-size: 50px;
+}
 @media (max-width: 767px) {
   .nav-links {
     display: none;
@@ -309,25 +356,9 @@ margin-left: 30px;
 }
 
 
-.scifi { 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.sports { 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 
-.banner-image {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
+
 
 /* CSS for Small and Mobile Screens */
 @media (max-width: 767px) {
@@ -337,7 +368,10 @@ margin-left: 30px;
   }
 
 
-
+  .banner_text { 
+    padding: 0;
+    margin-left: 20px
+  }
   .nav-links {
     display: none;
   }
@@ -395,6 +429,53 @@ margin-left: 30px;
 .footer_nav li {
   margin: 5px 0;
   padding-top: 20px;
+}
+
+.book_detail {
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.main_view img{
+
+  margin: auto;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bookpics {
+  margin: auto;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+
+.side_view {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+  flex-wrap: wrap; 
+}
+
+.side_view img {
+  width: calc(33.33% - 20px); 
+  max-width: 120px; 
+  height: auto; 
+}
+
+.book_info {
+  display: block; 
+  margin-top: 20px; 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.book_description {
+  margin: 0;
+  padding-bottom: 20px;
 }
 }
 
@@ -460,6 +541,59 @@ margin-left: 30px;
     margin: 5px 0;
     padding-top: 20px;
   }
+ 
+  .book {
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;  
+  }
+
+  .book_detail {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .main_view img{
+  
+    margin: auto;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .bookpics {
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  
+  .side_view {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .side_view img {
+    width: calc(33.33% - 20px); 
+    max-width: 120px; 
+    height: auto; 
+  }
+  
+  .book_info {
+    display: block; 
+    margin-top: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .book_description {
+    margin: 0;
+    padding-bottom: 20px;
+  }
 }
 
 
@@ -467,3 +601,4 @@ margin-left: 30px;
 @media (min-width: 992px){
 
 }
+

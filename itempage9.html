@@ -1,59 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DaBook</title>
-    <link rel="shortcut icon" href="pics/iconbook.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pics/iconbook.ico" type="image/x-icon">
+    <title>DaBook - Science Fiction</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="pics/logobook.png" alt="DaBook Logo">
+
+<!-- Header -->
+<header>
+    <div class="logo">
+        <img src="pics/logobook.png" alt="DaBook Logo">
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="https://duybui1311.github.io/">Home</a></li>
+            <li><a href="#scifi">Science Fiction</a></li>
+            <li><a href="#sports">Sport</a></li>
+
+            <!--Hamburger for responsive-->
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#scifi">Science Fiction</a></li>
-                <li><a href="#sports">Sport</a></li>
+    </nav>
+</header>
 
-                <!--Hamburger for responsive-->
-            </ul>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </nav>
-    </header>
+  <!-- Banner Section -->
+  <section class="banner">
+    <img class="banner-image" src="pics/banner.jpg" alt="DaBook Banner">
+    <div class="banner_text" <b>
+    </div>
+</section>
 
-    <div class="book_detail">
-        <div class="bookpics">
+<div class="detail_header">
+    <h2> Science Fiction > Best Selling > Contact: A Novel </h2>
+</div>
+<section class="book">
+<div class="book_detail">
+    <div class="bookpics">
+      <div class="main_view">
+        <img src="pics/item1.jpg" alt="mainpict" id="main">
+      </div>
+      <div class="side_view">
+        <img src="pics/item2.jpg" alt="preview1">
+        <img src="pics/item3.jpg" alt="preview2">
+        <img src="pics/item4.jpg" alt="preview3">
+      </div>
+    </div>  
+    <div class="book_info">
+      <h1>The Flash #782: Control</h1>
+      <p class="price">Price: <span>12.99 $</span></p>
+    
+      <h2 class="description_heading">Description</h2>
+      <p class="book_description">
+        The Pulitzer Prize-winning author of Cosmos and renowned astronomer Carl Sagan’s international bestseller about the discovery of an advanced civilization in the depths of space remains the “greatest adventure of all time” (Associated Press).
+        <br>
+        <br>
+        The future is here…in an adventure of cosmic dimension. When a signal is discovered that seems to come from far beyond our solar system, a multinational team of scientists decides to find the source. What follows is an eye-opening journey out to the stars to the most awesome encounter in human history. Who—or what—is out there? Why are they watching us? And what do they want with us?
+        <br>
+        <br>
+        One of the best science fiction novels about communication with extraterrestrial intelligent beings, Contact is a “stunning and satisfying” (Los Angeles Times) classic.
+      </p>
+      <div class="add_button">
+        <input class="add_button" type="button" value="Add to cart">
+      </div>
+    </div>
+  </div>
+</section>  
+  
 
-          <div class="main_view">
-          <img src="pics/item1.jpg" alt="mainpict" id="main">
-          </div>
-          <div class="side_view">
-
-
-          <img src="pics/item1.jpg" alt="preview1" >
-          <img src="pics/item1.jpg" alt="preview2" >
-          <img src="pics/item1.jpg" alt="preview3" >
-
-        </div>
-        </div>
-        <div class="book_description">
-          <h1 >The Flash #782: Control</h1>
-          <p>Price : <span> 23$</span></p>
-          <h2>Description</h2>
-          <p>The Speed Force on lockdown! Some of the Rogues are plotting something big inside Iron Heights, and the Flash goes inside to root out the plot. Meanwhile, Wallace figures out his future, and Linda tries to find out if she really has powers…</p>
-          <div class="add_button">
-          <input class="add_button" type="button" value="Add to cart">
-            </div>
-        </div>
-        </div>
     <!-- Footer -->
   <footer>
 
@@ -67,16 +87,18 @@
         </ul>
       </nav>
 
-<div class="footer_info">
-<p>
-    <a href="#" target="_blank"><img src="pics/facebook.png" alt="" width="30px"></a>
-    <a href="#" target="_blank"><img src="pics/ins.png" alt="" width="30px"></a>
-</p>
 
-<p>Made by Duy Bui - s3978546 </p>   
-<p>Email: s3978546@rmit.edu.vn</p>
-</div>    
 
 </footer>
+<div class="info">
+    <p>
+        <a href="#" target="_blank"><img src="pics/facebook.png" alt="" width="30px"></a>
+        <a href="#" target="_blank"><img src="pics/ins.png" alt="" width="30px"></a>
+    </p>
+    
+    <p>Made by Duy Bui - s3978546 </p>   
+    <p>Email: s3978546@rmit.edu.vn</p>
+    </div>    
+<script src="script.js"></script>
 </body>
 </html>

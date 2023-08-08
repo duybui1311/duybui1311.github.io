@@ -321,6 +321,12 @@
     justify-content: center;
   }
 
+.detail_header a{ 
+  text-decoration: none;
+}
+.detail_header a:hover {
+  color: #D71313;
+}
   .detail_header h2 {
     font-family: monospace;
     font-size: 30px;

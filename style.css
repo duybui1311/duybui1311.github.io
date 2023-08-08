@@ -14,6 +14,9 @@
     background-color: #EEEDED;
   }
 
+  body a:visited {
+    color: #0D1282;
+  }
   header {
     display: flex;
     align-items: center;

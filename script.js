@@ -15,11 +15,11 @@ hamburger.addEventListener("click", () => {
 
 
 function scrollToTop() {
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0; 
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
-window.onscroll = function() {
+window.onscroll = function () {
   showBackToTopButton();
 };
 

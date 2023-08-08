@@ -652,41 +652,36 @@ textarea {
       border: 1px solid #ccc;
       border-radius: 4px;
     }
+    #backToTopBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      background-color: #0D1282;
+      color: #FFF;
+      padding: 3px 10px; 
+      border: none;
+      border-radius: 3px; 
+      cursor: pointer;
+      font-size: 10px; 
+    }
+    
+    
+    
   }
 
 
 
   @media (min-width: 768px) and (max-width: 991px) {
-    .scifi {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-
-    .cat_item {
-      margin: 20px auto;
+    .logo img {
+      width: 200px;
+      height: 40px;
     }
 
 
-    table {
-      width: 80%;
-      margin: 0 auto;
-    }
-
-    td {
-      width: 100%;
-      display: block;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .cat_img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .input_label { 
-      display: block;
+    .banner_text {
+      padding: 0;
+      margin-left: 20px
     }
 
     .nav-links {
@@ -706,10 +701,38 @@ textarea {
 
     .nav-links.show li {
       margin: 15px 0;
+      padding: 0;
     }
 
     .hamburger {
       display: block;
+    }
+
+
+    .banner-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    table {
+      display: block;
+    }
+
+    td {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .cat_item {
+      margin: auto;
+    }
+
+    .cat_img {
+      max-width: 100%;
+      height: auto;
     }
 
     .footer_ul {
@@ -721,12 +744,6 @@ textarea {
     .footer_nav li {
       margin: 5px 0;
       padding-top: 20px;
-    }
-
-    .book {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
     }
 
     .book_detail {
@@ -760,7 +777,7 @@ textarea {
     }
 
     .side_view img {
-      width: calc(33.33% - 20px);
+      width: calc(25% - 20px);
       max-width: 120px;
       height: auto;
     }
@@ -776,10 +793,35 @@ textarea {
       margin: 0;
       padding-bottom: 20px;
     }
+
+    .map_vid iframe {
+      width: 300px;
+      height: 200px;
+    }
+
+    .label-input-container {
+      display: block;
+      margin-bottom: 15px; 
+    }
+    label {
+      padding-right: 0; 
+      display: block; 
+      font-weight: bold;
+      margin-bottom: 5px; 
+    }
+  
+    input,
+    select,
+    textarea {
+      width: 100%; 
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
   }
 
 
 
   @media (min-width: 992px) {
-    
+
   }

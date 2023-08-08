@@ -49,21 +49,29 @@ Acknowledgement: Images from google.com ; icon images are downloaded from flatic
     <section class="form">
         <h1>Contact Us</h1>
         <form id="contactForm" action="submit_form.php" method="post">
+            <div class="label-input-container">
             <label for="contactPurpose">Contact Purpose:</label>
             <select id="contactPurpose" name="contactPurpose" required>
                 <option value="" disabled selected>Select an option</option>
                 <option value="sellBooks">I want to sell books</option>
                 <option value="buyBooks">I want to buy books</option>
             </select>
-
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required required placeholder="Enter your name">
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required required placeholder="Enter your email">
-
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" required required placeholder="Enter your phone number">
+        </div>
+            
+            <div class="label-input-container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="label-input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="label-input-container">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
 
             <fieldset>
                 <legend>Contact Preference:</legend>
@@ -85,10 +93,10 @@ Acknowledgement: Images from google.com ; icon images are downloaded from flatic
                 <button type="reset">Reset</button>
             </div>
         </form>
-    </main>
+    </section>
 
 
-
+    <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
     <footer>
 
         <nav class="footer_nav">
@@ -110,7 +118,7 @@ Acknowledgement: Images from google.com ; icon images are downloaded from flatic
             </div>
         </div>
 
-        <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+        
 
     </footer>
     <div class="info">

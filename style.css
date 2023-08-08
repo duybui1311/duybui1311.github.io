@@ -323,6 +323,7 @@
 
 .detail_header a{ 
   text-decoration: none;
+  color: #0D1282;
 }
 .detail_header a:hover {
   color: #D71313;

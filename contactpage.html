@@ -46,7 +46,7 @@ Acknowledgement: Images from google.com ; icon images are downloaded from flatic
         </div>
     </section>
 
-    <main>
+    <section class="form">
         <h1>Contact Us</h1>
         <form id="contactForm" action="submit_form.php" method="post">
             <label for="contactPurpose">Contact Purpose:</label>
@@ -57,13 +57,13 @@ Acknowledgement: Images from google.com ; icon images are downloaded from flatic
             </select>
 
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required required placeholder="Enter your name">
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required required placeholder="Enter your email">
 
             <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" required>
+            <input type="tel" id="phone" name="phone" required required placeholder="Enter your phone number">
 
             <fieldset>
                 <legend>Contact Preference:</legend>

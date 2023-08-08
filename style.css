@@ -357,6 +357,9 @@
 
   }
 
+.main label {
+  display: none;
+}
 
 
   .map_vid iframe {
@@ -372,7 +375,7 @@
     color: #D71313;
   }
 
-  main {
+.form {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;

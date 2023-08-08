@@ -636,7 +636,7 @@ textarea {
     .label-input-container {
       display: block;
       margin-bottom: 15px; 
-  
+    }
     label {
       padding-right: 0; 
       display: block; 
@@ -780,5 +780,6 @@ textarea {
 
 
 
-  @media (min-width: 992px) {}
-}
+  @media (min-width: 992px) {
+    
+  }

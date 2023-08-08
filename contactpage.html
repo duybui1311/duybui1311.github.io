@@ -12,7 +12,7 @@ Acknowledgement: Images from google.com ; icon images are downloaded from flatic
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="pics/iconbook.ico" type="image/x-icon">
-    <title>DaBook - Science Fiction</title>
+    <title>DaBook - Contact Page</title>
 </head>
 <body>
 
@@ -44,44 +44,47 @@ Acknowledgement: Images from google.com ; icon images are downloaded from flatic
     </div>
 </section>
 
-<div class="detail_header">
-    <h2> Science Fiction > Best Selling > Contact: A Novel </h2>
-</div>
-<section class="book">
-<div class="book_detail">
-    <div class="bookpics">
-      <div class="main_view">
-        <img src="pics/item1.jpg" alt="mainpict" id="main">
-      </div>
-      <div class="side_view">
-        <img src="pics/item2.jpg" alt="preview1">
-        <img src="pics/item3.jpg" alt="preview2">
-        <img src="pics/item4.jpg" alt="preview3">
-      </div>
-    </div>  
-    <div class="book_info">
-      <h1>The Flash #782: Control</h1>
-      <p class="book_price">Price: <span>12.99 $</span></p>
-    
-      <h2 class="description_heading">Description</h2>
-      <p class="book_description">
-        The Pulitzer Prize-winning author of Cosmos and renowned astronomer Carl Sagan’s international bestseller about the discovery of an advanced civilization in the depths of space remains the “greatest adventure of all time” (Associated Press).
-        <br>
-        <br>
-        The future is here…in an adventure of cosmic dimension. When a signal is discovered that seems to come from far beyond our solar system, a multinational team of scientists decides to find the source. What follows is an eye-opening journey out to the stars to the most awesome encounter in human history. Who—or what—is out there? Why are they watching us? And what do they want with us?
-        <br>
-        <br>
-        One of the best science fiction novels about communication with extraterrestrial intelligent beings, Contact is a “stunning and satisfying” (Los Angeles Times) classic.
-      </p>
-      <div class="add_button">
-        <input class="add_button" type="button" value="Add to cart">
-      </div>
-    </div>
-  </div>
-</section>  
-  <!-- Back to Top Button -->
-<button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
-   
+<main>
+    <h1>Contact Us</h1>
+    <form id="contactForm" action="submit_form.php" method="post">
+        <label for="contactPurpose">Contact Purpose:</label>
+        <select id="contactPurpose" name="contactPurpose" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="sellBooks">I want to sell books</option>
+            <option value="buyBooks">I want to buy books</option>
+        </select>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <fieldset>
+            <legend>Contact Preference:</legend>
+            <label><input type="checkbox" name="contactPreference[]" value="email">By Email</label>
+            <label><input type="checkbox" name="contactPreference[]" value="phone">By Phone</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Receive Weekly Newsletter:</legend>
+            <label><input type="radio" name="newsletter" value="yes" checked>Yes</label>
+            <label><input type="radio" name="newsletter" value="no">No</label>
+        </fieldset>
+
+        <label for="extraNotes">Extra Notes:</label>
+        <textarea id="extraNotes" name="extraNotes"></textarea>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</main>
+  
 
     <!-- Footer -->
   <footer>
@@ -92,17 +95,19 @@ Acknowledgement: Images from google.com ; icon images are downloaded from flatic
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms</a></li>
           <li><a href="#">Copyright</a></li>
-          <li><a href="https://duybui1311.github.io/contactpage.html">Contact Us</a></li>
+          <li><a href="#">Contact Us</a></li>
         </ul>
       </nav>
-
-
       <div class="map">
         <div id="map">
             <!-- Paste the map embed code here -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0831803171645!2d105.81150919999999!3d21.0293575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab6c083b9e77%3A0x24a98b7b9ec16897!2zNTIxIFAuIEtpbSBNw6MsIE5n4buNYyBLaMOhbmgsIEJhIMSQw6xuaCwgSMOgIE7hu5lp!5e0!3m2!1sen!2s!4v1691496521120!5m2!1sen!2s"></iframe>
         </div>
     </div>
+
+<!-- Back to Top Button -->
+<button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+   
 </footer>
 <div class="info">
     <p>

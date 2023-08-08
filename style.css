@@ -341,8 +341,8 @@
 
   
   #map {
-    text-align: center; /* Center the map horizontally */
-    margin-top: 20px;   /* Add spacing between the navigation and map */
+    text-align: center; 
+    margin-top: 20px;  
   }
 
 .map iframe { 
@@ -456,7 +456,7 @@ button[type="reset"]:hover {
 
 
 
-  /* CSS for Small and Mobile Screens */
+
   @media (max-width: 767px) {
     .logo img {
       width: 200px;
@@ -582,7 +582,6 @@ button[type="reset"]:hover {
   }
 
 
-  /* CSS for Medium and Tablet Screens */
   @media (min-width: 768px) and (max-width: 991px) {
     .scifi {
       flex-direction: column; 
@@ -699,7 +698,7 @@ button[type="reset"]:hover {
   }
 
 
-  /* CSS for Large and Desktop/Laptop Screens */
+
   @media (min-width: 992px){
 
   }

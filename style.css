@@ -303,7 +303,11 @@
     flex-direction: row;
     justify-content: center;
   }
-
+  .horror {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   .banner-image {
     width: 100%;
     height: auto;

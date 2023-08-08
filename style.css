@@ -448,7 +448,7 @@ label {
 input,
 select,
 textarea {
-    flex: 3; /* Adjusted to make the input wider */
+    flex: 3; 
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -634,21 +634,20 @@ textarea {
     }
 
     .label-input-container {
-      display: block; /* Change from flex to block for vertical stacking */
-      margin-bottom: 15px; /* Add some spacing between label and input */
-    }
+      display: block;
+      margin-bottom: 15px; 
   
     label {
-      padding-right: 0; /* Remove padding to center-align the label */
-      display: block; /* Display the label as a block element */
+      padding-right: 0; 
+      display: block; 
       font-weight: bold;
-      margin-bottom: 5px; /* Add a little spacing between labels */
+      margin-bottom: 5px; 
     }
   
     input,
     select,
     textarea {
-      width: 100%; /* Make the input fields span the full width */
+      width: 100%; 
       padding: 8px;
       border: 1px solid #ccc;
       border-radius: 4px;
@@ -782,3 +781,4 @@ textarea {
 
 
   @media (min-width: 992px) {}
+}

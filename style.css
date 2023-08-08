@@ -339,19 +339,7 @@
     font-size: 50px;
   }
 
-  .dropdown-menu li {
-    border: 1px solid #0D1282;
-    background-color: #f0f0f0;
-    padding: 20px;
-  }
-
-  .dropdown-menu li:hover {
-    border: 1px solid #0D1282;
-    background-color: #b3b1b1;
-    padding: 20px;
-
-  }
-
+  
   #map {
     text-align: center; /* Center the map horizontally */
     margin-top: 20px;   /* Add spacing between the navigation and map */
@@ -362,37 +350,13 @@
   height: 400px;
 }
 
-  .dropdown {
-    position: relative;
-  }
+header a:hover { 
+ color:#D71313;
+}
 
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    z-index: 1;
-  }
-
-  /* Show dropdown menu on hover */
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-
-  /* Adjust dropdown styling on hover */
-  .dropdown:hover {
-    background-color: #f0f0f0;
-  }
-
-  .dropdown:hover > a {
-    color: #0D1282;
-  }
-
-
+footer a:hover {
+  color:#D71313;
+}
 
   @media (max-width: 767px) {
     .nav-links {

@@ -484,6 +484,18 @@ textarea {
     font-family: monospace;
     font-size: 60px;
   }
+
+  .privacy p { 
+    font-family: monospace;
+    font-size: 30px;
+    padding: 40px;
+  }
+
+  .privacy h1 {
+    font-family: monospace;
+    font-size: 60px;
+  }
+
   @media (max-width: 767px) {
     .nav-links {
       display: none;

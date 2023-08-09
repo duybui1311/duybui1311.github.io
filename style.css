@@ -496,6 +496,34 @@ textarea {
     font-size: 60px;
   }
 
+  .terms p { 
+    font-family: monospace;
+    font-size: 30px;
+    padding: 40px;
+  }
+
+  .terms h1 {
+    font-family: monospace;
+    font-size: 60px;
+  }
+
+
+  .copyright p { 
+    font-family: monospace;
+    font-size: 30px;
+    padding: 40px;
+  }
+
+  .copyright h1 {
+    font-family: monospace;
+    font-size: 60px;
+  }
+
+  .copyright h2 {
+    font-family: monospace;
+    font-size: 40px;
+    padding-left: 40px;
+  }
   @media (max-width: 767px) {
     .nav-links {
       display: none;

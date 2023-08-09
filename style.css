@@ -474,6 +474,16 @@ textarea {
     background-color: #0056b3;
   }
 
+  .about p { 
+    font-family: monospace;
+    font-size: 30px;
+    padding: 40px;
+  }
+
+  .about h1 {
+    font-family: monospace;
+    font-size: 60px;
+  }
   @media (max-width: 767px) {
     .nav-links {
       display: none;

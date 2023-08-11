@@ -2,6 +2,9 @@
 
 this is my website for the rmit static website asm1
 
+URL of the website : https://duybui1311.github.io
+
+github link: https://github.com/duybui1311/duybui1311.github.io
 
 
 <!-- RMIT University Vietnam
